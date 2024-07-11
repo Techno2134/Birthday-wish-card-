@@ -5,18 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- <link rel="stylesheet" href="index.css"> -->
-    <style>
+    <style>body{
+    position: relative;
+    background-image: url("flower.avif");
+    position: relative;
+    background-size: cover;
+    display:flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color:rgb(224, 204, 207);
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;   
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 0.8;
+}
+.content h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.content p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+
+}
         body{
+            position: relative;
             background-image: url('./flower.avif');
             background-position: center;
             background-size: cover;
-            background-repeat: no-repeat;
-            height:100vh; 
-/*             width: 50px; */
+            display: flex;
+            justify-content: center;
+            justify-content: center;
             animation: backgroundFadeIn 2s ease-in-out;
         }
 
-        h1{
+        .content h1{
             text-align: center;
             color: black;
             background-color: rgb(238, 242, 246);
@@ -29,6 +60,27 @@
             font-family:'Times New Roman', Times, serif;
             font-weight: bold;
             transition: background-color 0.5s ease;
+        }
+        .content{
+            background-color:rgb(224, 204, 207);
+            margin-top: 10%;
+            margin-right: 10%;
+            margin-left: 10%;   
+            text-align: center;
+            border-radius: 20px;
+            padding: 20px;
+            opacity: 0.8;
+        }
+        .content h1{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 60px;
+        }
+        .content p{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 30px;
+        
         }
         
         h1:hover{
@@ -55,9 +107,9 @@
     </style>
 </head>
 <body>
-    <h1>Happy Birthday<br><br>
-        Words alone are not enough to express how happy I am you are celebrating another year of your life! My wish for you on your birthday is that you are, and will always be, happy and healthy. Don’t ever change! Happy birthday my dear.
-    </h1>
-
+    <div class="content">
+        <h1>Happy Birthday</h1>
+        <p>Words alone are not enough to express how happy I am you are celebrating another year of your life! My wish for you on your birthday is that you are, and will always be, happy and healthy. Don’t ever change! Happy birthday my dear.</p>
+    </div>
 </body>
 </html>
